@@ -1,0 +1,29 @@
+---------------------------------------------
+ARRANCAR METASPLOIT
+---------------------------------------------
+Iniciar postgres SQL DDBB
+Iniciar Metasploit DDBB
+Iniciar instancia de Metasploit
+
+---------------------------------------------
+---------------------------------------------
+DDBB postgresql
+service postgresql start
+service postgresql status
+service postgresql stop
+
+pass > userpass
+
+---------------------------------------------
+---------------------------------------------
+DDBB Metasploit
+msfdb status
+msfdv start
+msfdb stop
+
+msfdb init (iniciar ambas DB (postgres, msfdb))
+
+--------------------------------------------
+--------------------------------------------
+Iniciar instancia Metasploit Framework
+msfconsole
