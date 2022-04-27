@@ -1,0 +1,7 @@
+Auxiliary = ofrece funciones secundarias que los exploits no tienes, como hacer scanners.
+Encoder = camuflar ataque ante antivirus y otras herramientas de deteccion, nos permite agregar capas de proteccion a nuestro Payload.
+Payload = codigo para ejecutar acciones maliciosas una ves que el exploit concede el acceso al sistema objetivo.
+Exploit = codigo que permite acceder y/o penetrar al sistema objetivo, explotar una vulnerabilidad para acceder dentro del sistema.
+Post = codigo para ejecutar acciones 'post explotacion' una ves tener exito en el exploit y el payload, osea una ves teniendo el control del sistema objetivo. Permite acciones como convertir la shell del sistema atacado a una shell de meterpreter que es un payload.
+Nops = evitan que el exploit y la conexion caiga durante el proceso, se mantenga persistente.
+Evasion = son encoder que pueden personalizarse, modificar.
